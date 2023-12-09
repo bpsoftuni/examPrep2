@@ -22,7 +22,7 @@ jobs:
       run: npm run test:unit
     - name: Username is
       run: echo "bpsoftuni"
- deploy:
+  deploy:
     needs: build-test
     runs-on: ubuntu-latest
     steps:
